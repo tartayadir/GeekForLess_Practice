@@ -4,25 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3768dae1-e39c-4ae2-84c2-d6f92de84700" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Flying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InheritTask/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="3768dae1-e39c-4ae2-84c2-d6f92de84700" name="Changes" comment="First task commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/RadioStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/anchors/Anchor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/anchors/GuestHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/anchors/StaffHost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/controllers/RadioStations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/AdvertisingFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/GuestHostFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/InterviewFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/RadioStationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/SongFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/StaffHostFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/factoryies/UnpaidTranslationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translationParts/Advertising.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translationParts/Interview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translationParts/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translationParts/TranslationPart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translations/Translation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/translations/UnpaidTranslation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Task2/views/RadioStationView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +46,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/Task2/RadioStation.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -49,19 +58,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Task2.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InheritTask.Main" />
       <module name="GeekForLess_Practice" />
@@ -75,8 +84,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Task2.Main" />
+      <module name="GeekForLess_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Task2.translationParts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task2.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -90,7 +113,22 @@
       <option name="presentableId" value="Default" />
       <updated>1657275602443</updated>
       <workItem from="1657275604247" duration="7038000" />
+      <workItem from="1657290176009" duration="1417000" />
+      <workItem from="1657311415667" duration="18000" />
+      <workItem from="1658140841637" duration="6682000" />
+      <workItem from="1658156330930" duration="607000" />
+      <workItem from="1658229870839" duration="16000" />
+      <workItem from="1658442042691" duration="1969000" />
+      <workItem from="1658485058358" duration="7697000" />
     </task>
+    <task id="LOCAL-00001" summary="First task commit">
+      <created>1657290321295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657290321295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +144,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial -add" />
+    <MESSAGE value="-" />
+    <MESSAGE value="First task commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First task commit" />
   </component>
 </project>
